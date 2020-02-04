@@ -108,7 +108,7 @@ Direct initialization:
 int width(5);
 ```
 
-For simple data types (like integers), copy and direct initialization are essentiallythe same.
+For simple data types (like integers), copy and direct initialization are essentially the same.
 But for some advanced types, direct initialization can perform better than copy initialization.
 
 Unfortunately, direct initialization can’t be used for all types of initialization
@@ -116,7 +116,7 @@ Unfortunately, direct initialization can’t be used for all types of initializa
 initialization mechanism, C++11 added a new syntax called brace initialization (also sometimes
 called uniform initialization or list initialization) that uses curly braces.
 
-Brace initialization comes in two forms:
+Brace initialization (uniform or list initialization) comes in two forms:
 ```cpp
 int width{5}; // direct brace initialization of value 5 into variable width (preferred)
 int height = {6}; // copy brace initialization of value 6 into variable height
